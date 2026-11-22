@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mapa Gastronómico | Sabores de Colombia</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Teko:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="pagina-mapa">
+
+
+
+<!-- ENCABEZADO Y NAVEGACIÓN -->
+<header class="encabezado" id="inicio">
+
+    <nav class="navbar">
+
+        <a href="inicio index.html" class="logo">
+            <img src="Imagenes/icono.png" alt="Logo Sabores de Colombia">
+            <span>Sabores de Colombia</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon" aria-label="Abrir menú">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="inicio index.html">Inicio</a>
+            </li>
+
+            <li>
+                <a href="regiones index.html">Regiones</a>
+            </li>
+
+            <li>
+                <a href="mapa gastronomico index.html" class="activo">
+                    Mapa gastronómico
+                </a>
+            </li>
+
+            <!-- TRADUCTOR -->
+            <li>
+                <div class="gtranslate_wrapper"></div>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+    <!-- =========================
+         CONTENIDO PRINCIPAL
+    ========================== -->
+
+        <!-- INVITACIÓN A CONOCER COLOMBIA -->
+
+        <section class="seccion-descubre">
+
+            <div class="descubre-contenido">
+
+                <span class="descubre-etiqueta">
+                    SABORES · TRADICIÓN · CULTURA
+                </span>
+
+                <h1>
+                    Colombia, un país
+                    <span>para saborear</span>
+                </h1>
+
+                <div class="linea-decorativa"></div>
+
+                <p>
+                    Colombia es un país lleno de contrastes, colores,
+                    tradiciones y sabores que reflejan la riqueza de su gente.
+                    Desde las costas del Caribe y el Pacífico hasta las
+                    montañas andinas, los llanos y la selva amazónica,
+                    cada región guarda una identidad única que se descubre
+                    a través de su gastronomía, sus paisajes y sus costumbres.
+                </p>
+
+                <p>
+                    Te invitamos a recorrer Colombia, conocer su diversidad
+                    cultural y dejarte enamorar por cada sabor que hace
+                    de nuestro país un lugar extraordinario.
+                </p>
+
+            </div>
+
+        </section>
+
+
+    <main>
+
+        <!-- MAPA GASTRONÓMICO -->
+
+        <section class="seccion-mapa">
+
+            <div class="mapa-contenedor">
+
+                <img
+                    src="Imagenes/Mapa_gastronomico-removebg-preview-Photoroom.png"
+                    alt="Mapa gastronómico de Colombia con sus platos típicos"
+                    class="imagen-mapa"
+                >
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+             CARRUSEL DE COLOMBIA
+        ========================== -->
+
+        <section class="seccion-carrusel">
+
+            <div class="carrusel-encabezado">
+
+                <span class="carrusel-etiqueta">
+                    DESCUBRE NUESTRA TIERRA
+                </span>
+
+                <h2>
+                    Colombia a través de sus paisajes
+                </h2>
+
+                <p>
+                    Un viaje por los lugares que hacen de Colombia
+                    un país lleno de vida.
+                </p>
+
+            </div>
+
+
+            <div class="carrusel">
+
+                <div class="carrusel-ventana">
+                    <div class="carrusel-pista">
+                        <article class="carrusel-slide">
+                            <img
+                                src="Imagenes/mapa gastronomico/The Towering Wax Palms of Cocora Valley.jpeg"
+                                alt="Arquitectura y calles coloridas de Colombia"
+                            >
+
+                            <div class="slide-informacion">
+
+                                <span>01 / 05</span>
+
+                                <h3>Colombia, tierra de colores</h3>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- FOTO 2 -->
+
+                        <article class="carrusel-slide">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=85"
+                                alt="Montañas y naturaleza colombiana"
+                            >
+
+                            <div class="slide-informacion">
+
+                                <span>02 / 05</span>
+
+                                <h3>Montañas que cuentan historias</h3>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- FOTO 3 -->
+
+                        <article class="carrusel-slide">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=85"
+                                alt="Paisaje natural y mar"
+                            >
+
+                            <div class="slide-informacion">
+
+                                <span>03 / 05</span>
+
+                                <h3>La magia de nuestras costas</h3>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- FOTO 4 -->
+
+                        <article class="carrusel-slide">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+                                alt="Paisaje verde de naturaleza"
+                            >
+
+                            <div class="slide-informacion">
+
+                                <span>04 / 05</span>
+
+                                <h3>Naturaleza que enamora</h3>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- FOTO 5 -->
+
+                        <article class="carrusel-slide">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=85"
+                                alt="Bosque tropical y biodiversidad"
+                            >
+
+                            <div class="slide-informacion">
+
+                                <span>05 / 05</span>
+
+                                <h3>La riqueza de nuestra tierra</h3>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FLECHA ANTERIOR -->
+
+                <button
+                    class="flecha-carrusel anterior"
+                    type="button"
+                    aria-label="Fotografía anterior"
+                >
+                    &#10094;
+                </button>
+
+
+                <!-- FLECHA SIGUIENTE -->
+
+                <button
+                    class="flecha-carrusel siguiente"
+                    type="button"
+                    aria-label="Fotografía siguiente"
+                >
+                    &#10095;
+                </button>
+
+
+                <!-- INDICADORES -->
+
+                <div class="carrusel-indicadores">
+
+                    <button
+                        class="indicador activo"
+                        type="button"
+                        aria-label="Ver fotografía 1"
+                    ></button>
+
+                    <button
+                        class="indicador"
+                        type="button"
+                        aria-label="Ver fotografía 2"
+                    ></button>
+
+                    <button
+                        class="indicador"
+                        type="button"
+                        aria-label="Ver fotografía 3"
+                    ></button>
+
+                    <button
+                        class="indicador"
+                        type="button"
+                        aria-label="Ver fotografía 4"
+                    ></button>
+
+                    <button
+                        class="indicador"
+                        type="button"
+                        aria-label="Ver fotografía 5"
+                    ></button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE FINAL -->
+
+        <section class="seccion-frase">
+
+            <div class="frase-contenido">
+
+                <span>COLOMBIA</span>
+
+                <h2>
+                    Cada rincón tiene una historia,
+                    <br>
+                    cada sabor tiene una tradición.
+                </h2>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="pie-pagina">
+
+        <div class="footer-contenido">
+
+            <div class="footer-marca">
+
+                <h2>Sabores de Colombia</h2>
+
+                <p>
+                    Un recorrido por la cultura y la tradición
+                    gastronómica de nuestro país.
+                </p>
+
+            </div>
+
+            <div class="footer-enlaces">
+
+                <h3>Explora</h3>
+
+                <a href="inicio index.html">Inicio</a>
+
+                <a href="regiones index.html">Regiones</a>
+
+                <a href="mapa gastronomico index.html">
+                    Mapa gastronómico
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="footer-final">
+
+            <p>
+                a© 2026 Sabores de Colombia | Proyecto académico
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="scripts.js"></script>
+
+<!-- TRADUCTOR AUTOMÁTICO -->
+<script>
+window.gtranslateSettings = {
+    "default_language": "es",
+    "languages": ["es", "en"],
+    "wrapper_selector": ".gtranslate_wrapper"
+};
+</script>
+
+<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+
+</body>
+</html>
